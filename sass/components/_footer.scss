@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--dark-color);
+  padding: 60px 0;
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-join {
+  margin-left: 70px;
+}
+
+.footer-join__title {
+  color: var(--thirdy-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
