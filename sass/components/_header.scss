@@ -6,3 +6,15 @@
 //   display: flex;
 //   align-items: center;
 // }
+
+.menu-btn__close {
+  display: none;
+}
+
+.menu-btn.is-open .menu-btn__close {
+  display: block;
+}
+
+.menu-btn.is-open .menu-btn__menu {
+  display: none;
+}
