@@ -1,9 +1,8 @@
-// .filters__list {
-//   display: flex;
-//   justify-content: center;
-//   margin-bottom: 50px;
-// }
-
-// .filters__item:not(:last-child) {
-//   margin-right: 8px;
-// }
+.filters__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+  max-width: 326px;
+  gap: 8px;
+}
