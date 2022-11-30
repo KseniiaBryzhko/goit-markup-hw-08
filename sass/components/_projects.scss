@@ -1,5 +1,19 @@
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.projects__item {
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 30px) / 2);
+  }
+}
+
 .projects__item:not(:first-child) {
-  margin-top: 30px;
+  @media screen and (max-width: 480px) {
+    margin-top: 30px;
+  }
 }
 
 .projects__link {
@@ -50,6 +64,10 @@
   padding: 20px 24px;
   border: 1px solid var(--border-color);
   border-top: none;
+
+  @media screen and (min-width: 768px) {
+    padding: 20px 20px;
+  }
 }
 
 .projects__name {
