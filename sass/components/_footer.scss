@@ -4,8 +4,20 @@
   text-align: center;
 }
 
+.footer__wrapper {
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 165px;
+    align-items: baseline;
+  }
+}
+
 .footer-join {
-  margin-top: 60px;
+  @media screen and (max-width: 767px) {
+    margin-top: 60px;
+  }
 }
 
 .footer-join__title {

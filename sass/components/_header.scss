@@ -3,8 +3,12 @@
 }
 
 .header__container {
-  min-height: 60px;
+  min-height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
+  @media screen and (min-width: 1200px) {
+    min-height: 60px;
+    justify-content: space-between;
+  }
 }
