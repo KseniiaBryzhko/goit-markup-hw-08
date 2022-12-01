@@ -1,12 +1,19 @@
 .menu {
   display: flex;
+  align-items: center;
   padding: 0;
   margin: 0;
   list-style: none;
   margin-left: 87px;
+  flex-grow: 1;
+  justify-content: space-between;
 
-  @media (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
   }
 }
 
@@ -32,7 +39,7 @@
     fill: var(--accent-color);
   }
 
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }

@@ -12,6 +12,11 @@
   font-size: 12px;
   line-height: 1.2;
   color: var(--primary-color);
+
+  @media screen and (min-width: 1200px) {
+    font-size: var(--primary-font-size);
+    line-height: 1.7;
+  }
 }
 
 .checkbox__input {
@@ -56,4 +61,8 @@
   font-weight: 400;
   color: var(--accent-color);
   text-decoration: underline;
+
+  @media screen and (min-width: 1200px) {
+    text-underline-position: under;
+  }
 }

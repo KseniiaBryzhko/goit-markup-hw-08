@@ -5,6 +5,10 @@
   line-height: 1.5;
   text-align: center;
   color: var(--secondary-color);
+
+  @media screen and (min-width: 1200px) {
+    line-height: 1.2;
+  }
 }
 
 .form__group {
@@ -69,6 +73,10 @@
     line-height: 1.1;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
+
+    @media screen and (min-width: 1200px) {
+      font-size: 12px;
+    }
   }
 
   &:hover,

@@ -17,7 +17,7 @@
   position: relative;
 }
 
-.mobile-socials__item::after {
+.mobile-socials__item:not(:last-child)::after {
   top: 0;
   right: -10px;
   position: absolute;
