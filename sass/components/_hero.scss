@@ -38,6 +38,13 @@
         url('../../images/hero/desktop@2x.jpg');
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px;
+  }
 }
 
 .hero__title {
@@ -51,4 +58,10 @@
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.4;
+    width: 696px;
+  }
 }

@@ -1,7 +1,17 @@
 .footer {
   background-color: var(--dark-color);
   padding: 60px 0;
-  text-align: center;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+}
+
+.footer__container {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .footer__wrapper {
@@ -17,6 +27,10 @@
 .footer-join {
   @media screen and (max-width: 767px) {
     margin-top: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
   }
 }
 

@@ -5,12 +5,21 @@
   line-height: 1.2;
   margin-bottom: 30px;
   text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }
 
 .clients__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
 }
 
 .clients__item {
@@ -19,6 +28,10 @@
 
   @media screen and (min-width: 768px) {
     width: calc((100% - 60px) / 3);
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 150px) / 5);
   }
 }
 

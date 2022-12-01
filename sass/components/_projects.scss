@@ -8,6 +8,10 @@
   @media screen and (min-width: 768px) {
     width: calc((100% - 30px) / 2);
   }
+
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 60px) / 3);
+  }
 }
 
 .projects__item:not(:first-child) {
@@ -67,6 +71,10 @@
 
   @media screen and (min-width: 768px) {
     padding: 20px 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 20px 24px;
   }
 }
 
