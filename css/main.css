@@ -117,13 +117,18 @@ a {
 }
 
 .header__container {
-  min-height: 80px;
+  min-height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .header__container {
+    min-height: 80px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header__container {
@@ -432,7 +437,7 @@ a {
   line-height: 1.6;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  width: 360px;
+  max-width: 360px;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
@@ -441,7 +446,7 @@ a {
   .hero__title {
     font-size: 44px;
     line-height: 1.4;
-    width: 696px;
+    max-width: 696px;
   }
 }
 
@@ -679,7 +684,7 @@ a {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .team-member:not(:first-child) {
     margin-top: 30px;
   }
@@ -1297,6 +1302,9 @@ a {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 12px;
   line-height: 1.2;
   color: var(--primary-color);
