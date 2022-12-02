@@ -16,6 +16,11 @@
     min-width: 528px;
     min-height: 581px;
   }
+
+  @media screen and (max-height: 619px) {
+    top: 0;
+    transform: translateX(-50%);
+  }
 }
 
 .modal__close-btn {
