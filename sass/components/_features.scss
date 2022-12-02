@@ -7,7 +7,7 @@
 }
 
 .features__item:not(:first-child) {
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
     margin-top: 30px;
   }
 }
