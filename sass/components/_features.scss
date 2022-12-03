@@ -32,13 +32,16 @@
 }
 
 .features__subtitle {
-  text-align: center;
   color: var(--secondary-color);
   font-weight: 700;
   font-size: var(--primary-font-size);
   line-height: 1.1;
   text-transform: uppercase;
   margin-top: 30px;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .features__descr {
